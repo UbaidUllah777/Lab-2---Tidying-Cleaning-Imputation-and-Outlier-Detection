@@ -251,7 +251,15 @@ data/auto-mpg.data
 data/diabetes.csv
 ```
 
+## Replicability Check
 
+To verify that the project is reproducible on systems other than the development machine, the GitHub repository was shared with two classmates, **Vid** and **Koushik**, for independent testing.
+
+Both testers cloned the repository onto their own machines and created separate Python environments. They installed the required dependencies using:
+
+```bash
+pip install -r requirements.txt
+```
 
 ---
 
@@ -265,3 +273,5 @@ data/diabetes.csv
 ## Academic Note
 
 This repository is prepared as coursework for **Lab 2 – Tidying, Cleaning, Imputation, and Outlier Detection**. The notebook contains the completed analysis, supporting explanations, visualizations, reflections, and reproducibility workflow required for the assignment.
+
+---
